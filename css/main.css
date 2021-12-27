@@ -1,0 +1,128 @@
+html{
+    scroll-behavior: smooth;
+}
+
+/* ////////NavBar//////// */
+.navbar img {
+    width: 90px;
+}
+
+.navbar {
+    background: linear-gradient(to right, #111 70%, #eee);
+}
+
+.navbar ul li a {
+    color: wheat;
+    font-family: cursive;
+    font-weight: 300;
+    transition: all 0.2s;
+    margin: 0px 10px;
+}
+
+.navbar ul li:hover{
+    background-color: white;
+    border-radius: 20px;
+    transition: all .5s ;
+    text-decoration: underline;
+    font-weight: 1500;
+}
+
+.navbar ul li a:hover{
+    font-weight: bold;
+}
+
+.navbar ul li a:hover{
+    color: black;
+}
+
+/* ////////SectionStyle//////// */
+.secStyle {
+    color: white;
+    background: linear-gradient(to right, #111 70%, #bbb);
+}
+
+.hr {
+    width: 40%;
+    height: 2px;
+    margin: 20px auto;
+    background: linear-gradient(to right, #111, rgb(233, 66, 94), #111);
+}
+
+.hrStyleUp{
+    border: 1px dashed white;
+    width: 30%;
+}
+
+.hrStyleDowen{
+    border: 1px dashed white;
+    width: 20%;
+}
+
+/* ////////gallary//////// */
+
+.gallary .nav {
+    margin: 10px auto;
+    width: 50%;
+    border-radius: 20px;
+    border: 1px solid black;
+}
+
+.nav-link{
+    color: white;
+    display: block;
+}
+
+.gallary .nav .active {
+    color: black;
+    font-weight: bold;
+    border-radius: 20px;
+}
+
+.nav-link:hover{
+    color: white;
+}
+
+.gallary .tab-content img {
+    border-radius: 20px;
+    border: 1px solid grey;
+    margin: 5px 0px;
+    width: 330px;
+    height: 220px;
+}
+
+/* ////////footer//////// */
+
+.site-footer {
+    background-color: #26272b;
+    padding: 45px 0 20px;
+    font-size: 15px;
+    line-height: 24px;
+    color: #737373;
+}
+
+.site-footer h6 {
+    color: #fff;
+    font-size: 16px;
+    text-transform: uppercase;
+    margin-top: 5px;
+    letter-spacing: 2px;
+}
+
+.footer-links {
+    padding-left: 0;
+    list-style: none;
+}
+
+.footer-links a {
+    color: #737373;
+}
+
+.footer-links a:hover {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.site-footer hr {
+    border-top-color: #bbb;
+    opacity: 0.5;
+}
